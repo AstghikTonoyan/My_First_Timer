@@ -16,7 +16,7 @@ const timer = setInterval(function countDownTimer(month,day) {
     remaining = "Շնորհավոր Նոր Տարի";
   } else {
     clearInterval(timer);
-    remaining = "Բարի գալուստ 2023 թվական";
+    remaining = "Բարի գալուստ 2023 թվական!!";
   }
   div1.innerHTML = remaining;
 }, 1000);
